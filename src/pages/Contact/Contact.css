@@ -1,0 +1,188 @@
+.cnt-banner {
+  margin-top: 0;
+  padding: 200px 0 100px 0;
+  border-bottom: 5px solid #fff;
+}
+
+.cnt-banner h1 {
+  color: rgb(92, 64, 218);
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.cnt-banner p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.cnt-banner img {
+  width: 300px;
+  margin: auto;
+}
+
+/************ contactform ************/
+.contact {
+  background: linear-gradient(90.21deg, #aa367c -5.91%, rgb(92, 64, 218) 70.58%);
+  padding: 60px 0 60px 0;
+}
+.contact img {
+  width: 92%;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.contact form input {
+  width: 100%;
+  background: transparent;
+  border: solid transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 12px 26px 4px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.input-f {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contact form textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 12px 26px 4px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.contact form select {
+  width: 100%;
+  background: transparent;
+  border: solid transparent;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  padding: 12px 12px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.select-items {
+  position: absolute;
+  color: #000;
+  background-color: #fff;
+  font-weight: 500;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+  background: rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.contact form input:focus::placeholder,
+.contact form textarea:focus::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 22px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+.contact form button:hover {
+  color: #fff;
+}
+.contact form button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact form button:hover::before {
+  width: 100%;
+}
+.contact p {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.terms-1 {
+  padding: 0;
+  color: #fff;
+}
+.terms-1:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/************ media ************/
+@media (max-width: 766px) {
+  /************ Banner ************/
+  .banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url("../../assets/img/banner-bg3.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner .wrap {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: rgb(92, 64, 218);
+  }
+}

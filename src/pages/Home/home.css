@@ -1,0 +1,420 @@
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url("../../assets/img/banner-bg2.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #fff;
+}
+.banner .wrap {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: rgb(92, 64, 218);
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  height: 432px;
+  width: 768px;
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #667;
+}
+/************ Services Css ************/
+.services {
+  padding: 0 0 50px;
+  position: relative;
+}
+.services p.transparent {
+  color: transparent;
+}
+.services-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -20px;
+}
+.services h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.hidden {
+  font-size: 45px;
+  font-weight: 700;
+}
+.services h5 {
+  color: rgb(92, 64, 218);
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.services p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 30px 0;
+}
+.services-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.services .bt-services {
+  background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
+  font-weight: 700;
+  font-size: 20px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-image-left {
+  top: 28%;
+  left: 0;
+  position: absolute;
+  max-height: 500px;
+  width: 40%;
+  z-index: -4;
+}
+/************ Why Css ************/
+.why-container {
+  padding: 60px 0 200px 0;
+  max-width: 868px;
+}
+.why-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.why-button {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: rgb(152, 159, 165);
+  margin: 14px 32px 30px 30px;
+  cursor: pointer;
+}
+.why-button:hover {
+  color: #fff;
+}
+.why-active {
+  color: #fff;
+}
+.why-sections {
+  display: grid;
+  grid-template-columns: 0.7fr;
+  justify-content: center;
+}
+.why-content {
+  display: none;
+}
+
+.why-content-active {
+  display: block;
+}
+.why-data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+.why-title {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px;
+}
+.why-subtitle {
+  padding: 5px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+}
+.why-rouder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: rgb(152, 159, 165);
+  border-radius: 50%;
+}
+
+.why-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  transform: translate(6px, -7px);
+}
+
+/************ Info ************/
+.info {
+  background: linear-gradient(90.21deg, rgb(92, 64, 218) -5.91%, #9736aa 140.58%);
+  padding: 60px 0 200px 0;
+}
+.info h2 {
+  margin: 0 0px 50px 0px;
+}
+.info-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+.info-company {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, rgb(217, 216, 223), transparent);
+  display: grid;
+  place-items: center;
+}
+.info-company-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(-10deg);
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+.info-company-image:hover {
+  transform: rotate(0);
+}
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.info-card {
+  background: rgba(0, 0, 0, 0.151);
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+.info-card:hover {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.253);
+  cursor: default;
+}
+
+.info-icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.info-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.info-card small {
+  font-size: 0.8rem;
+  color: rgb(179, 179, 179);
+  font-weight: 300;
+}
+.info-content p {
+  margin: 2rem 0 2rem;
+  text-align: center;
+}
+.info-btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  border: 3px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  letter-spacing: 0.75px;
+}
+.info-btn:hover {
+  background-color: #fff;
+  color: rgb(92, 64, 218);
+}
+
+/************ media ************/
+@media (max-width: 766px) {
+  /************ Banner ************/
+  .banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url("../../assets/img/banner-bg3.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner .wrap {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: rgb(92, 64, 218);
+  }
+  /************ Services Css ************/
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background: transparent;
+    margin-bottom: 70px;
+  }
+
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background: transparent;
+    margin-bottom: 70px;
+  }
+  /************ Why Css ************/
+  .why-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .why-data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 0;
+  }
+  .why-subtitle {
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+  }
+  /************ Info ************/
+  .info-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .info-company {
+    width: 80%;
+    margin: 2rem auto 4rem;
+  }
+
+  .info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .info-card {
+    background: rgba(0, 0, 0, 0.151);
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  .info-card:hover {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.253);
+    cursor: default;
+  }
+
+  .info-icon {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .info-card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .info-card small {
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    font-weight: 300;
+  }
+  .info-content p {
+    margin: 2rem 0 2rem;
+    text-align: center;
+  }
+  .info-btn {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 0.75px;
+  }
+  .info-btn:hover {
+    background-color: #fff;
+    color: rgb(92, 64, 218);
+  }
+}

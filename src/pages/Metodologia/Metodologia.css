@@ -1,0 +1,460 @@
+.metodologia-banner {
+  margin-top: 0;
+  padding-top: 260px;
+  padding-bottom: 100px;
+  background-image: url("../../assets/img/metodologia.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.metodologia-banner h1 {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  margin-bottom: 40px;
+}
+.metodologia-banner p {
+  color: #fff;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  background-color: #9102d4;
+  padding: 15px;
+  z-index: 10;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+.mb-element1 {
+  opacity: 0;
+  position: absolute;
+  top: 4%;
+  right: 23%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border: 4px solid #9102d4;
+  animation: rotate 20s linear infinite, fadeIn 2s linear forwards;
+}
+.mb-element2 {
+  opacity: 0;
+  position: absolute;
+  top: 16%;
+  right: 15%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border: 8px solid #9102d4;
+  animation: rotate 40s linear infinite, fadeIn 2s linear forwards;
+}
+.mb-element3 {
+  opacity: 0;
+  position: absolute;
+  top: 7%;
+  right: 10%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #9102d4;
+  animation: rotate 50s linear infinite, fadeIn 6s linear forwards;
+}
+.mb-element4 {
+  opacity: 0;
+  position: absolute;
+  top: 8%;
+  right: 39%;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  border: 6px solid #9102d4;
+  animation: rotate 30s linear infinite, fadeIn 4s linear forwards;
+}
+.mb-element5 {
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  right: 36%;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  border: 7px solid #9102d4;
+  animation: rotate 50s linear infinite, fadeIn 1s linear forwards;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+  0% {
+    transform: rotate(405deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/************ firststep************/
+
+.first-step {
+  padding: 100px 0 100px 0;
+  border-top: 15px solid #9102d4;
+}
+
+.first-step h3 {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: left;
+  display: block;
+}
+.first-step p {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+.first-step img {
+  max-width: 80%;
+  min-width: 364px;
+  margin: auto;
+}
+
+.f-img {
+  margin: auto;
+}
+.f-info {
+  margin: auto;
+  padding: 40px;
+}
+
+/************ secondstep************/
+.second-step {
+  padding: 100px 0 100px 0;
+  background-color: #0e0e0e;
+}
+.second-step h3 {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: left;
+  display: block;
+}
+.second-step p {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+.second-step img {
+  height: 400px;
+  width: 400px;
+  border-radius: 1rem;
+}
+
+.s-info {
+  margin: auto;
+  padding: 50px;
+}
+
+/************ thirdstep ************/
+
+.third-step {
+  padding: 100px 0 150px 0;
+}
+.third-step h3 {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: left;
+  display: block;
+}
+.third-step p {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+.third-step img {
+  max-width: 60%;
+  min-width: 364px;
+  margin: auto;
+}
+
+.t-info {
+  margin: auto;
+  padding: 40px;
+}
+/************ fourthstep ************/
+
+.fourth-step {
+  background-color: #0e0e0e;
+  padding: 30px 0 30px;
+  position: relative;
+  z-index: 1;
+}
+.fourth-step h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.fourth-step p.transparent {
+  color: transparent;
+}
+.fo-bx {
+  background: #181818;
+  border-radius: 64px;
+  text-align: center;
+  padding: 50px 50px;
+  margin-top: -150px;
+}
+
+.background-image-right {
+  top: 8%;
+  right: 0;
+  position: absolute;
+  max-height: 500px;
+  width: 40%;
+  z-index: -4;
+}
+.fo-card {
+  padding: 2rem;
+  text-align: center;
+  margin: 0 150px 0 150px;
+}
+
+.fo-icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.fo-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.fo-card small {
+  font-size: 0.8rem;
+  color: rgb(179, 179, 179);
+  font-weight: 300;
+}
+
+.fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  background: transparent;
+}
+
+.fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background: transparent;
+}
+/************ media ************/
+@media (max-width: 766px) {
+  /************ metodologiabanner ************/
+  .metodologia-banner {
+    margin-top: 0;
+    padding-top: 260px;
+    padding-bottom: 100px;
+    background-image: url("../../assets/img/metodologia.png");
+    background-position: 75% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .metodologia-banner h1 {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .metodologia-banner p {
+    color: #fff;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    background-color: #9102d4;
+    padding: 15px;
+    z-index: 10;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+  }
+
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+
+  .mb-element1 {
+    opacity: 0;
+    position: absolute;
+    top: 1%;
+    right: 14%;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #9102d4;
+    animation: rotate 20s linear infinite, fadeIn 2s linear forwards;
+  }
+  .mb-element2 {
+    opacity: 0;
+    position: absolute;
+    top: 11%;
+    right: 15%;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 8px solid #9102d4;
+    animation: rotate 40s linear infinite, fadeIn 2s linear forwards;
+  }
+  .mb-element3 {
+    opacity: 0;
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    z-index: 1;
+    width: 130px;
+    height: 130px;
+    border: 10px solid #9102d4;
+    animation: rotate 50s linear infinite, fadeIn 6s linear forwards;
+  }
+  .mb-element4 {
+    opacity: 0;
+    position: absolute;
+    top: 2%;
+    right: 80%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border: 6px solid #9102d4;
+    animation: rotate 30s linear infinite, fadeIn 4s linear forwards;
+  }
+  .mb-element5 {
+    opacity: 0;
+    position: absolute;
+    top: 11.5%;
+    right: 80%;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    border: 7px solid #9102d4;
+    animation: rotate 50s linear infinite, fadeIn 1s linear forwards;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(45deg);
+    }
+    0% {
+      transform: rotate(405deg);
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /************ secondstep************/
+  .second-step {
+    padding: 100px 0 100px 0;
+    background-color: #0e0e0e;
+  }
+  .second-step h3 {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-align: left;
+    display: block;
+  }
+  .second-step p {
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+  }
+  .second-step img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .s-info {
+    margin: auto;
+    padding: 50px;
+  }
+  /************ fourthstep ************/
+  .fourth-step {
+    background-color: #0e0e0e;
+    padding: 30px 0 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .fourth-step h2 {
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .fourth-step p.transparent {
+    color: transparent;
+  }
+  .fo-bx {
+    background: #181818;
+    border-radius: 64px;
+    text-align: center;
+    padding: 50px 50px;
+    margin-top: -150px;
+  }
+
+  .background-image-right {
+    top: 8%;
+    right: 0;
+    position: absolute;
+    max-height: 500px;
+    width: 40%;
+    z-index: -4;
+  }
+  .fo-card {
+    padding: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .fo-icon {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .fo-card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fo-card small {
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    font-weight: 300;
+  }
+
+  .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background: transparent;
+  }
+
+  .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background: transparent;
+  }
+}

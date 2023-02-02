@@ -1,0 +1,387 @@
+.Sb {
+  background-color: #121212;
+}
+
+.sobre-banner {
+  margin-top: 0;
+  padding: 260px 100px 100px 0;
+  background-image: url("../../assets/img/banner-bg7.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.sobre-banner h1 {
+  position: relative;
+  z-index: 10;
+  color: rgb(92, 64, 218);
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.sobre-banner h2 {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.sobre-banner p {
+  color: #b8b8b8;
+  position: relative;
+  z-index: 10;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  margin-bottom: 100px;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+.sb-element2 {
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #9102d4;
+  animation: rotate 40s linear infinite, fadeIn 1s linear forwards;
+  animation-delay: 1s;
+}
+.sb-element1 {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  top: 15%;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #9102d4;
+  animation: rotate 30s linear infinite, fadeIn 1s linear forwards;
+  animation-delay: 1s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+  0% {
+    transform: rotate(405deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/************ SobreInfo ************/
+
+.sobre-info {
+  background: #0e0e0e;
+  position: relative;
+  z-index: 10;
+}
+
+.sobre-info div {
+  text-align: center;
+}
+.info-img1 {
+  width: 180px;
+  height: 180px;
+}
+.info-img2 {
+  width: 180px;
+  height: 180px;
+}
+.info-img3 {
+  width: 200px;
+  height: 150px;
+}
+.info-img4 {
+  width: 150px;
+  height: 150px;
+}
+
+/************ Sobreobj ************/
+
+.sobre-obj {
+  padding: 50px 0 50px 0;
+}
+.cont-obj {
+  border-top: 2px solid rgb(92, 64, 218);
+}
+.sobre-obj img {
+  margin: 40px 0 80px 0;
+  max-width: 750px;
+  border-radius: 1rem;
+}
+.sobre-obj h3 {
+  position: relative;
+
+  color: rgb(92, 64, 218);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+/************ Sobredados ************/
+
+.sobre-dados {
+  padding: 60px 0 40px 0;
+  border-top: 1rem absolute #fff;
+}
+.sobre-dados h2 {
+  margin: 0 0px 50px 0px;
+}
+
+.sdados-company {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, rgb(217, 216, 223), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.sdados-card {
+  padding: 1rem;
+  text-align: center;
+}
+.sdados-card:hover {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.253);
+  cursor: default;
+}
+
+.sdados-icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.sdados-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sdados-card small {
+  font-size: 0.8rem;
+  color: rgb(179, 179, 179);
+  font-weight: 300;
+}
+.sdados-content p {
+  margin: 2rem 0 2rem;
+  text-align: center;
+}
+.sdados-btn {
+  width: max-content;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  border: 3px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  letter-spacing: 0.75px;
+}
+.sdados-btn:hover {
+  background-color: #fff;
+  color: rgb(92, 64, 218);
+}
+/************ Sobreidentity ************/
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.sobre-ide {
+  padding: 50px 0 50px 0;
+}
+.cont-ide {
+  background-color: rgb(53, 53, 53);
+  border-radius: 1rem;
+}
+.img-ide {
+  background-image: url("../../assets/img/historia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+.sobre-ide img {
+  border-radius: 1rem;
+  size: cover;
+  opacity: 0;
+}
+.text-ide {
+  margin: 80px;
+}
+.sobre-ide h3 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 40px;
+  display: block;
+}
+.text-ide p {
+  margin: 0;
+}
+/************ sobre-uotes ************/
+.sobre-quotes {
+  background-color: #0e0e0e;
+  position: relative;
+  z-index: 1;
+}
+.sobre-quotes h2 {
+  color: rgb(92, 64, 218);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.sobre-quotes p.transparent {
+  color: transparent;
+}
+.quo-bx {
+  margin: auto;
+  width: 70%;
+
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.background-image-right {
+  top: 8%;
+  right: 0;
+  position: absolute;
+  max-height: 500px;
+  width: 40%;
+  z-index: -4;
+}
+.quo-card {
+  padding: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.quo-icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.quo-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.quo-card small {
+  font-size: 1rem;
+  color: rgba(173, 173, 173, 0.7);
+  font-weight: 100;
+}
+
+.sobre-quotes .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  background: transparent;
+}
+
+.sobre-quotes .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background: transparent;
+}
+/************ media ************/
+@media (max-width: 766px) {
+  /************ sobrebanner ************/
+  .sobre-banner {
+    margin-top: 0;
+    padding: 260px 20px 100px 20px;
+    background-image: url("../../assets/img/sobre-bg-media.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .sobre-banner h1 {
+    position: relative;
+    z-index: 10;
+    color: rgb(92, 64, 218);
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .sobre-banner h2 {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .sb-element2 {
+    opacity: 0;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+    border: 8px solid #9102d4;
+    animation: rotate 40s linear infinite, fadeIn 1s linear forwards;
+    animation-delay: 1s;
+  }
+  .sb-element1 {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #9102d4;
+    animation: rotate 30s linear infinite, fadeIn 1s linear forwards;
+    animation-delay: 1s;
+  }
+  /************ sobre-uotes ************/
+  .sobre-quotes {
+    background-color: #0e0e0e;
+
+    position: relative;
+    z-index: 1;
+  }
+
+  .sobre-quotes p.transparent {
+    color: transparent;
+  }
+  .quo-bx {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px 50px;
+  }
+}
