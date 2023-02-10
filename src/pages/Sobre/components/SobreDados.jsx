@@ -15,28 +15,32 @@ export const SobreDados = () => {
         </h2>
         <Row className="aligh-items-center">
           <Col xs={4} md={4} xl={4} className="sdados-card">
-            <FaAward className="sdados-icon" />
-            <h5>Experiência</h5>
-            <small>Mais de 10 anos solucionando dificuldades empresariais!</small>
+            <a href="/para-empresas-tradicionais">
+              <FaAward className="sdados-icon" />
+              <h5>Diagnosticando a saúde financeira</h5>
+              <small>Como está a saúde financeira do seu negócio?</small>
+            </a>
+          </Col>
+
+          <Col xs={4} md={4} xl={4} className="sdados-card-1">
+            <a href="/para-empresas-tradicionais">
+              <FiUser className="sdados-icon-1" />
+              <h5>Implantando e ajustando processos</h5>
+              <small>
+                Sua atividade permite a padronização e gerenciamento de dados com maior
+                nível de eficiência nas rotinas?
+              </small>
+            </a>
           </Col>
 
           <Col xs={4} md={4} xl={4} className="sdados-card">
-            <FiUser className="sdados-icon" />
-            <h5>Clientes</h5>
-            <small>Ideal para pequenas e médias empresas.</small>
-          </Col>
-
-          <Col xs={4} md={4} xl={4} className="sdados-card">
-            <VscFolderLibrary className="sdados-icon" />
-            <h5>Custo-benefício</h5>
-            <small>
-              Desenvolvendo uma solução personalizada para seu negócio por um valor justo.
-            </small>
+            <a href="/para-empresas-tradicionais">
+              <VscFolderLibrary className="sdados-icon" />
+              <h5>Custo-Benefício</h5>
+              <small>Você sabe qual é o “Ponto de Equilíbrio” do seu negócio?</small>
+            </a>
           </Col>
         </Row>
-        <a href="#contact" className="sdados-btn">
-          Faça seu orçamento
-        </a>
       </Container>
     </section>
   );

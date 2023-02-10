@@ -7,10 +7,10 @@ export const MetodologiaBanner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={6}>
             <div>
-              <h1>Nossa metodologia</h1>
+              <h1>Nossa Metodologia</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been
+                Identificar as premissas críticas e estabelecer as diretrizes necessárias
+                para a elaboração correta do plano de ação.
               </p>
             </div>
           </Col>

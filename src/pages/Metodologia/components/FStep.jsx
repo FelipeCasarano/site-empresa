@@ -12,12 +12,17 @@ export const FStep = () => {
           </Col>
           <Col xs={12} md={6} xl={5} className="f-info">
             <div>
-              <h3>Metodologia</h3>
+              <h3>Visão ampla e definindo modelos para os procedimentos</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book.
+                Nossa metodologia visa principalmente ser{" "}
+                <small>
+                  compatível com diversos negócios e atendê-los de forma personalizada,
+                </small>{" "}
+                mapeando seu funcionamento, equipe e objetivos. A partir destas
+                informações utilizar de metodologias tradicionais do mercado como as
+                metodologias ágeis, balanced scored entre outras, definindo as mais
+                adequadas e a moldando para maior coesão com as características da
+                empresa.
               </p>
             </div>
           </Col>

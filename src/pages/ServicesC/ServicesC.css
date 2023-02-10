@@ -9,6 +9,7 @@ div.cal {
 .module-row {
   border-top: 15px solid #9102d4;
   border-bottom: 2px solid #fff;
+  margin: auto;
 }
 
 .cal-img-3 {
@@ -33,20 +34,6 @@ div.cal {
   }
 }
 
-.module h1,
-.module h2,
-.module h3,
-.module h4,
-.module h5,
-.module h6 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
-}
-
 .cont {
   width: 100%;
   max-width: 760px;
@@ -67,12 +54,28 @@ div.module:last-child {
 }
 
 .module h2 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+}
+.module .title {
+  color: rgb(92, 64, 218);
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.module small {
+  color: rgb(92, 64, 218);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
 }
 
 div.module.content {
@@ -263,6 +266,9 @@ div.module.parallax h1 {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.project-row {
+  margin: auto;
+}
 
 /************ benefitss Css ************/
 .benefits {
@@ -274,15 +280,16 @@ div.module.parallax h1 {
   color: transparent;
 }
 .benefits-bx {
-  background: #151515;
+  background: #ffffff;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 30px 50px;
   margin-top: -40px;
 }
 .benefits h2 {
-  font-size: 45px;
-  font-weight: 400;
+  color: rgb(92, 64, 218);
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .benefits-slider {
@@ -293,7 +300,7 @@ div.module.parallax h1 {
 .benefits .bt-benefits {
   background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   background-clip: text;
   -webkit-background-clip: text;
   color: black;
@@ -309,12 +316,8 @@ div.module.parallax h1 {
   z-index: -4;
 }
 .benefits-card {
-  background: linear-gradient(
-    90.21deg,
-    rgba(170, 54, 124, 0.5),
-    rgb(92, 64, 218, 0.5) 90.58%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
+  border: 2px solid rgb(92, 64, 218);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
@@ -326,21 +329,18 @@ div.module.parallax h1 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-.benefits-card h5 {
+
+.benefits-card small {
   font-size: 1rem;
+  color: rgb(253, 253, 253);
   font-weight: 600;
 }
-.benefits-card small {
-  font-size: 0.8rem;
-  color: rgb(179, 179, 179);
-  font-weight: 300;
-}
 .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.171);
 }
 
 .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.171);
 }
 /************ Media ************/
 @media (max-width: 766px) {
@@ -367,5 +367,8 @@ div.module.parallax h1 {
     padding: 0;
     width: 65%;
     max-width: 550px;
+  }
+  .project-row {
+    margin: auto;
   }
 }

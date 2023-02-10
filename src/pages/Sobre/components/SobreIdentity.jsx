@@ -10,10 +10,17 @@ export const SobreIdentity = () => {
             <div className="text-ide">
               <h3>Nossa identidade</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book.
+                Valorizamos a experiência, o capital humano e a técnica especializada na
+                resolução de problemas complexos, construímos respostas para os seus
+                desafios atuais e futuros.
+                <br />
+                Atuamos com soluções customizadas ou simplesmente ajustadas, levando em
+                conta a história, objetivos, processos, mercado e cultura dos nossos
+                clientes.
+                <br />
+                Em cada projeto, o aprendizado é mútuo e, o conhecimento, sempre
+                aprimorado e compartilhado. É assim que damos autonomia e eficiência aos
+                nossos clientes para garantir a sustentabilidade dos seus negócios.
               </p>
             </div>
           </Col>

@@ -32,20 +32,6 @@ div.cal {
   }
 }
 
-.module h1,
-.module h2,
-.module h3,
-.module h4,
-.module h5,
-.module h6 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
-}
-
 .cont {
   width: 100%;
   max-width: 760px;
@@ -66,12 +52,28 @@ div.module:last-child {
 }
 
 .module h2 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+}
+.module .title {
+  color: rgb(92, 64, 218);
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.module small {
+  color: rgb(92, 64, 218);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
 }
 
 div.module.content {
@@ -271,14 +273,14 @@ div.module.parallax h1 {
   color: transparent;
 }
 .benefits-bx {
-  background: #151515;
+  background: #ffffff;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 30px 50px;
   margin-top: -40px;
 }
 .benefits h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -290,7 +292,7 @@ div.module.parallax h1 {
 .benefits .bt-benefits {
   background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   background-clip: text;
   -webkit-background-clip: text;
   color: black;
@@ -323,14 +325,11 @@ div.module.parallax h1 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-.benefits-card h5 {
-  font-size: 1rem;
-  font-weight: 600;
-}
+
 .benefits-card small {
-  font-size: 0.8rem;
-  color: rgb(179, 179, 179);
-  font-weight: 300;
+  font-size: 1rem;
+  color: rgb(255, 254, 254);
+  font-weight: 600;
 }
 .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
   background: rgba(255, 255, 255, 0.5);

@@ -11,10 +11,10 @@ export const SobreBanner = () => {
               <h1>Tecnologia e conhecimento,</h1>
               <h2>são os alidos do crescimento.</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book.
+                Somos um grupo de Administradores, Contadores, Desenvolvedores e Técnicos
+                de TI, extremamente capacitados a somar força e sabedoria com o objetivo
+                de aprimorar a gestão do seu negócio, minimizando gastos e maximizando
+                resultados.
               </p>
             </div>
           </Col>

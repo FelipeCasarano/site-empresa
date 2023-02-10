@@ -16,7 +16,7 @@ module.exports = (firstName, lastName, email, phone, objective, anexo, message) 
 
     const mail = {
         from: `ECmoney ${objective} <ecmoneybr@gmail.com`,
-        to: ["stefanyreis68@gmail.com", "felipe262@outlook.com"],
+        to: ["felipe262@outlook.com"],
         subject: `${firstName} ${lastName} te enviou uma mensagem (${objective})`,
         html: `
         <html>

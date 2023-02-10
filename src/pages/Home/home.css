@@ -54,6 +54,9 @@
   display: flex;
   align-items: center;
 }
+.banner a {
+  text-decoration: none;
+}
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
@@ -116,13 +119,14 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 30px 0;
+  margin: 14px 15% 30px 15%;
 }
 .services-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
+
 .services .bt-services {
   background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
   font-weight: 700;
@@ -213,7 +217,7 @@
 /************ Info ************/
 .info {
   background: linear-gradient(90.21deg, rgb(92, 64, 218) -5.91%, #9736aa 140.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 60px 0;
 }
 .info h2 {
   margin: 0 0px 50px 0px;
@@ -230,6 +234,7 @@
   background: linear-gradient(45deg, transparent, rgb(217, 216, 223), transparent);
   display: grid;
   place-items: center;
+  margin: auto;
 }
 .info-company-image {
   border-radius: 2rem;
@@ -275,6 +280,44 @@
   color: rgb(179, 179, 179);
   font-weight: 300;
 }
+
+.info-card-p {
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 60px;
+  border-color: rgba(255, 255, 255, 0.5);
+  max-width: 800px;
+}
+.info-card-p:hover {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: default;
+  border-color: transparent;
+}
+
+.info-icon-p {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+.info-card-p h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.info-card-p small {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.info-card-p li {
+  font-size: 0.9rem;
+  color: rgb(179, 179, 179);
+  font-weight: 300;
+  list-style-type: none;
+  padding: 5px;
+}
 .info-content p {
   margin: 2rem 0 2rem;
   text-align: center;
@@ -292,6 +335,7 @@
   color: #fff;
   transition: 0.3s ease-in-out;
   letter-spacing: 0.75px;
+  margin-top: 20px;
 }
 .info-btn:hover {
   background-color: #fff;
@@ -329,12 +373,29 @@
   /************ Services Css ************/
   .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
     background: transparent;
-    margin-bottom: 70px;
+    margin-top: -120%;
   }
 
   .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
     background: transparent;
-    margin-bottom: 70px;
+    margin-top: -120%;
+  }
+  h5.startup {
+    margin-bottom: 74px;
+  }
+  .services p {
+    color: #b8b8b8;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 15% 30px 15%;
+  }
+  .item p {
+    color: #b8b8b8;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.2em;
+    margin: 14px 0 30px 0;
   }
   /************ Why Css ************/
   .why-title {
@@ -398,6 +459,27 @@
   .info-content p {
     margin: 2rem 0 2rem;
     text-align: center;
+  }
+  .info-icon-p {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .info-card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .info-card small {
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    font-weight: 300;
+  }
+  .info-card-p li {
+    font-size: 0.8rem;
+    color: rgb(179, 179, 179);
+    font-weight: 300;
+    list-style-type: none;
+    padding: 5px;
   }
   .info-btn {
     width: max-content;

@@ -3,7 +3,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp2 from "../../../assets/img/color-sharp2.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import { FaAward } from "react-icons/fa";
 
 export const Benefits = () => {
   const responsive = {
@@ -43,28 +42,27 @@ export const Benefits = () => {
                 autoPlaySpeed={5000}
               >
                 <article className="benefits-card">
-                  <FaAward className="benefits-icon" />
-                  <h5>Experiência</h5>
-                  <small>Mais de 10 anos solucionando dificuldades empresariais!</small>
+                  <small>Gestor especializado para sua empresa</small>
                 </article>
                 <article className="benefits-card">
-                  <FaAward className="benefits-icon" />
-                  <h5>Experiência</h5>
-                  <small>Mais de 10 anos solucionando dificuldades empresariais!</small>
+                  <small>Melhora dos processos internos</small>
                 </article>
                 <article className="benefits-card">
-                  <FaAward className="benefits-icon" />
-                  <h5>Experiência</h5>
-                  <small>Mais de 10 anos solucionando dificuldades empresariais!</small>
+                  <small>Segurança e confiança financeira</small>
+                </article>
+                <article className="benefits-card">
+                  <small>Tomada de decisão mais assertiva</small>
+                </article>
+                <article className="benefits-card">
+                  <small>Planejamento estratégico situacional</small>
                 </article>
               </Carousel>
-              <button
-                className="bt-benefits"
-                onClick={() => console.log("abertura-de-empresas")}
-              >
-                Fale com um especialista{" "}
-                <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
-              </button>
+              <a href="/entre-em-contato">
+                <button className="bt-benefits">
+                  Fale com um especialista{" "}
+                  <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
+                </button>
+              </a>
             </div>
           </Col>
         </Row>

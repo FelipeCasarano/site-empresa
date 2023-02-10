@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import InputMask from "react-input-mask";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 export const ContactForm = () => {
   const formInitialDetails = {
@@ -39,7 +40,7 @@ export const ContactForm = () => {
           "Content-Type": `multipart/form-data; boundary=${formData._boundary}`,
         },
       })
-
+      .then(Swal.fire("Enviado!", "Logo retornaremos seu contato…", "success"))
       .catch((error) => console.log(error));
     setButtonText("Enviar");
     setFormDetails(formInitialDetails);
@@ -89,7 +90,7 @@ export const ContactForm = () => {
                     mask="(99) 99999-9999"
                     maskChar=" "
                     value={formDetails.phone}
-                    placeholder="Celular ex.(xx)xxxxx-xxxx*"
+                    placeholder="Celular (xx)xxxxx-xxxx*"
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                     required
                   />

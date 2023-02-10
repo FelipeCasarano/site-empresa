@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const FoStep = () => {
   const responsive = {
@@ -28,43 +29,56 @@ export const FoStep = () => {
         <Row>
           <Col>
             <div className="fo-bx">
-              <h2>Perguntas</h2>
+              <h2>Perguntas frequentes</h2>
               <Carousel
                 deveResetAutoplay={true}
                 autoPlay={true}
                 responsive={responsive}
                 infinite={true}
                 className="benefits-slider"
-                autoPlaySpeed={5000}
+                autoPlaySpeed={10000}
               >
                 <article className="fo-card">
-                  <h5>Frases</h5>
+                  <h5>Como funciona a assessoria na E.C.MONEY?</h5>
                   <small>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex expedita
-                    quis fugiat magnam suscipit velit exercitationem, dolores praesentium
-                    aut doloremque. Aperiam porro facere minima inventore maxime quos
-                    magnam voluptas facilis.
+                    A assessoria da E.C. Money é totalmente personalizada para seu
+                    negócio, vinculada a uma equipe de assessoria ou a um assessor
+                    exclusivo, em conjunto de diversos parceiros com intuito de entregar o
+                    melhor custo-benefício.
                   </small>
                 </article>
                 <article className="fo-card">
-                  <h5>Frases</h5>
+                  <h5>Sua metodologia serve para pequenas e médias empresas?</h5>
                   <small>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis
-                    minima facilis eaque excepturi accusantium ratione odit, consequatur
-                    ea nesciunt, inventore voluptas saepe voluptate dolorum iure
-                    dignissimos itaque nostrum ut.
+                    Sim, independente do seu tamanho utilizar de métodos para seu
+                    crescimento é um grande diferencial, quanto mais cedo aplicado maiores
+                    serão os benefícios futuros.
                   </small>
                 </article>
                 <article className="fo-card">
-                  <h5>Frases</h5>
+                  <h5>Quanto custa a assessoria da E.C.MONEY?</h5>
                   <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum amet
-                    est neque, nesciunt magnam vero itaque! Iste labore amet ipsam?
-                    Aliquid facilis quos at consequatur quibusdam dicta asperiores
-                    molestiae placeat!
+                    Na E.C.Money adotamos a taxa zero, ou seja, o primeiro contato não tem
+                    custo nenhum.
+                    <br /> Porém, dependendo do que se deseja será avaliado por uma
+                    equipe, com a missão de ser o mais acessível e completo.
+                  </small>
+                </article>
+                <article className="fo-card">
+                  <h5>Posso enviar meu currículo ?</h5>
+                  <small>
+                    Sim, a E.C.Money está em constante crescimento e buscamos sempre
+                    adquirir novos talentos do mercado, para entregar o melhor serviço
+                    para nossos clientes.
                   </small>
                 </article>
               </Carousel>
+              <a href="/entre-em-contato">
+                <button className="bt-benefits">
+                  Fale com um especialista{" "}
+                  <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
+                </button>
+              </a>
             </div>
           </Col>
         </Row>

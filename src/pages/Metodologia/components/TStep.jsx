@@ -12,12 +12,21 @@ export const TStep = () => {
           </Col>
           <Col xs={12} md={6} xl={5} className="t-info">
             <div>
-              <h3>Metodologia</h3>
+              <h3>Metodologias Ágeis</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book.
+                Com a constante evolução da indústria, as empresas precisaram buscar
+                processos mais eficientes, dessa forma, as metodologias ágeis chegaram com
+                o intuito de resolver,{" "}
+                <small>criando processos mais organizados e otimizados.</small> Mas alguns
+                pontos da{" "}
+                <small>
+                  experiência e dos conhecimentos clássicos não podem ser abandonados,
+                </small>{" "}
+                como no xadrez que tem diversas regras e seus princípios e a partir de um
+                bom entendimento pode se elaborar uma estratégia, nossa metodologia busca
+                entender seu objetivo, utilizando conceitos tradicionais e{" "}
+                <small> a partir disso elaborar um modelo</small> utilizando das
+                metodologias ágeis e processos modernos.
               </p>
             </div>
           </Col>

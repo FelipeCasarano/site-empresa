@@ -125,7 +125,14 @@
 .first-step p {
   color: #fff;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+.first-step small {
+  color: rgb(92, 64, 218);
+  text-align: left;
+  font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
 }
@@ -145,10 +152,10 @@
 
 /************ secondstep************/
 .second-step {
-  padding: 100px 0 100px 0;
   background-color: #0e0e0e;
 }
 .second-step h3 {
+  color: rgb(92, 64, 218);
   font-size: 45px;
   font-weight: 500;
   letter-spacing: 0.8px;
@@ -158,24 +165,29 @@
 .second-step p {
   color: #fff;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+.second-step small {
+  color: rgb(92, 64, 218);
+  text-align: left;
+  font-size: 16px;
   letter-spacing: 0.8px;
 }
 .second-step img {
   height: 400px;
   width: 400px;
   border-radius: 1rem;
+  margin: 20px 20px;
 }
 
 .s-info {
   margin: auto;
-  padding: 50px;
 }
 
 /************ thirdstep ************/
-
 .third-step {
-  padding: 100px 0 150px 0;
+  padding: 0px 0 100px 0;
 }
 .third-step h3 {
   font-size: 45px;
@@ -187,15 +199,25 @@
 .third-step p {
   color: #fff;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.8px;
+  margin: 0;
+}
+.third-step small {
+  color: rgb(92, 64, 218);
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin: 0;
 }
 .third-step img {
-  max-width: 60%;
+  max-width: 70%;
   min-width: 364px;
   margin: auto;
 }
-
+.t-img {
+  margin: auto;
+}
 .t-info {
   margin: auto;
   padding: 40px;
@@ -209,7 +231,7 @@
   z-index: 1;
 }
 .fourth-step h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 400;
 }
 .fourth-step p.transparent {
@@ -243,21 +265,32 @@
   margin-bottom: 1rem;
 }
 .fo-card h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .fo-card small {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(179, 179, 179);
   font-weight: 300;
+}
+.bt-benefits {
+  background: linear-gradient(90.21deg, rgb(170, 54, 124), rgb(92, 64, 218) 90.58%);
+  font-weight: 700;
+  font-size: 22px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  -webkit-text-fill-color: transparent;
 }
 
 .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
   background: transparent;
+  margin: auto;
 }
 
 .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
   background: transparent;
+  margin: auto;
 }
 /************ media ************/
 @media (max-width: 766px) {
@@ -371,6 +404,15 @@
       opacity: 1;
     }
   }
+  /************ firststep************/
+
+  .first-step h3 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-align: left;
+    display: block;
+  }
   /************ secondstep************/
   .second-step {
     padding: 100px 0 100px 0;
@@ -390,8 +432,8 @@
     letter-spacing: 0.8px;
   }
   .second-step img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     border-radius: 1rem;
   }
 
@@ -399,6 +441,18 @@
     margin: auto;
     padding: 50px;
   }
+  /************ thirdstep ************/
+  .third-step {
+    padding: 0px 0 100px 0;
+  }
+  .third-step h3 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-align: left;
+    display: block;
+  }
+
   /************ fourthstep ************/
   .fourth-step {
     background-color: #0e0e0e;
@@ -452,9 +506,11 @@
 
   .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
     background: transparent;
+    margin: 0;
   }
 
   .fourth-step .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
     background: transparent;
+    margin: 0;
   }
 }

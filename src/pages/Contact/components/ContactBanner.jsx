@@ -7,7 +7,7 @@ export const ContactBanner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={6}>
-            <h1>Qual é seu necessidade?</h1>
+            <h1>Qual é sua necessidade?</h1>
             <br />
             <p>
               Conte conosco para desenvolver o melhor caminho para alcançar grandes

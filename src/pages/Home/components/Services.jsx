@@ -44,45 +44,53 @@ export const Services = () => {
                 className="services-slider"
               >
                 <div className="item">
-                  <h5>
-                    Startups <p className="transparent">Startups</p>
-                  </h5>
+                  <h5 className="startup">Startups</h5>
                   <IoRocketOutline size={50} alt="Rocket" className="icon" />
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-                    blanditiis?
+                    Implementação de gestão especializada no crescimento sustentável,
+                    competitividade e lucratividade. <br /> Focamos na segurança da
+                    informação para tomada de decisões mais assertivas, melhoria dos
+                    processos e dados financeiros.
                   </p>
-                  <button className="bt-services" onClick={() => console.log("startups")}>
-                    Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
-                  </button>
+                  <a href="/para-startups">
+                    <button className="bt-services">
+                      Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
+                    </button>
+                  </a>
                 </div>
                 <div className="item">
-                  <h5>Empresas tradicionais</h5>
+                  <h5>Empresas Tradicionais</h5>
                   <IoStorefrontOutline size={50} alt="Store" className="icon" />
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-                    blanditiis?
+                    Escaneamos sua empresa diagnosticando e otimizando os processos
+                    administrativos financeiros, com foco no core business aprimoramos a
+                    ferramenta tecnológica, ERP, sistemas de cash front e/ou back office.
+                    <br />
+                    Minimizando custos e maximizando resultados.
                   </p>
-                  <button
-                    className="bt-services"
-                    onClick={() => console.log("empresas-tradicionais")}
-                  >
-                    Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
-                  </button>
+                  <a href="/para-empresas-tradicionais">
+                    <button className="bt-services">
+                      Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
+                    </button>
+                  </a>
                 </div>
                 <div className="item">
-                  <h5>Abertura de empresas</h5>
+                  <h5>Abertura de Empresas</h5>
                   <IoBulbOutline size={50} alt="Buld" className="icon" />
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-                    blanditiis?
+                    Contamos com larga parceria e know-how para toda orientação pertinente
+                    à abertura de uma empresa ou filiais e franquias.
+                    <br />
+                    Planejamento estratégico, profissionais especializados tais como:
+                    <br />
+                    Apoio jurídico, marketing digital, interface web, sites, apps e toda a
+                    infraestrutura administrativa - BPO.
                   </p>
-                  <button
-                    className="bt-services"
-                    onClick={() => console.log("abertura-de-empresas")}
-                  >
-                    Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
-                  </button>
+                  <a href="/para-abertura-de-empresas">
+                    <button className="bt-services">
+                      Saiba mais <ArrowRightCircle size={24} color="rgb(92, 64, 218)" />
+                    </button>
+                  </a>
                 </div>
               </Carousel>
             </div>

@@ -14,6 +14,7 @@ export default function Rotas() {
         <Routes>
             <Route path={"*"} element={<Home />} />
             <Route path={"/"} element={<Home />} />
+            <Route path={"/home"} element={<Home />} />
             <Route path={"/sobre"} element={<Sobre />} />
             <Route path={"/para-startups"} element={<ServicesA />} />
             <Route path={"/para-empresas-tradicionais"} element={<ServicesB />} />

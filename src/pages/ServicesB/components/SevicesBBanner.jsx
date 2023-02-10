@@ -11,16 +11,22 @@ export const SevicesBBanner = () => {
         <Col xs={12} md={6} xl={6} className="cal">
           <div className="module content">
             <div className="cont">
-              <h2>Qualquer texto aqui..</h2>
+              <h2>
+                O QUE É UMA ASSESSORIA PARA <p className="title">EMPRESAS?</p>
+              </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam
-                reiciendis unde voluptatem dignissimos! Adipisci alias rerum commodi ad
-                excepturi. Quod aut maxime non architecto numquam vel et, magnam eius!
+                Ter uma empresa de sucesso não é apenas ter um modelo de negócio
+                promissor, mas uma ampla quantidade de fatores, que exigem desde pequenas
+                alterações a grandes mudanças. A fim de se{" "}
+                <small>destacar dentre a concorrência ou por problemas internos,</small>{" "}
+                muitas empresas acabam enfrentando dificuldades na{" "}
+                <small>visualização de riscos e oportunidades.</small>
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam
-                reiciendis unde voluptatem dignissimos! Adipisci alias rerum commodi ad
-                excepturi. Quod aut maxime non architecto numquam vel et, magnam eius!
+                É necessário uma <small>visão externa</small> para encontrar falhas e
+                elaborar objetivos, em conjunto do conhecimento especializado com
+                competência, utilizando de metodologia para alavancar e impulsionar a
+                empresa a <small>grandes resultados.</small>
               </p>
             </div>
           </div>

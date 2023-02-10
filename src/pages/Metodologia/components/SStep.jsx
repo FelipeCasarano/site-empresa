@@ -9,12 +9,16 @@ export const SStep = () => {
         <Row>
           <Col xs={12} md={6} xl={5} className="s-info">
             <div>
-              <h3>Metodologia</h3>
+              <h3>Inovação e Conceito</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book.
+                O mercado atual é cada vez mais instável, e sua capacidade de inovar e se
+                destacar é o que mais faz diferença na{" "}
+                <small>longevidade da sua empresa,</small> algo bem mais difícil na
+                prática do que na teoria. Nossa empresa acredita que a tecnologia é um
+                poderoso aliado em conjunto das metodologias, que utilizadas com os
+                conceitos certos se tornam uma{" "}
+                <small>ferramenta decisiva no futuro negócio,</small> proporcionando
+                eficiência, diminuindo riscos e criando facilidades.
               </p>
             </div>
           </Col>

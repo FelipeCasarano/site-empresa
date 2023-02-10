@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPhoneAlt, FaHome, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import {
     MDBFooter,
     MDBContainer,
@@ -18,14 +19,12 @@ export const Footer = () => {
                     <MDBRow className="mt-3">
                         <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4 text-white fs-4">
-                                ECmoney
+                                E.C.money
                             </h6>
                             <p className="footer-text">
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Quam amet pariatur odio magni
-                                eaque accusantium quisquam cum aut dolores
-                                delectus fuga ut cupiditate, voluptatibus
-                                veritatis ullam molestias rem repellendus vel!
+                                A E.C.Money é uma empresa de Assessoria Financeira & Tecnologia Empresarial que atende empresas,
+                                com o propósito compartilhado de obter serviços e resultados surpreendentes superando a concorrência,
+                                utilizando a criatividade, tecnologia e direcionando seus recursos de forma eficiente.
                             </p>
                         </MDBCol>
 
@@ -34,17 +33,17 @@ export const Footer = () => {
                                 Páginas
                             </h6>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/" className="footer-link">
                                     Home
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/sobre" className="footer-link">
                                     Sobre
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/metodologia" className="footer-link">
                                     Metodologia
                                 </a>
                             </p>
@@ -55,17 +54,17 @@ export const Footer = () => {
                                 Serviços
                             </h6>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/para-startups" className="footer-link">
                                     Startup
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/para-empresas-tradicionais" className="footer-link">
                                     Empresas tradicionais
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="footer-link">
+                                <a href="/para-abertura-de-empresas" className="footer-link">
                                     Abertura de Empresas
                                 </a>
                             </p>
@@ -81,14 +80,14 @@ export const Footer = () => {
                                 Contato
                             </h6>
                             <p className="footer-contact">
-                                Rua Aires Martins Torres, 771<br /> Vila São Francisco, São Paulo
+                                <FaHome size={25} alt="local" className="icon" /> Rua Aires Martins Torres, 771 <br /> &emsp;&ensp; Vila São Francisco, São Paulo
                             </p>
                             <p className="footer-contact">
-                                CEP 05352-060
+                                <FaMapMarkerAlt size={20} alt="map" className="icon" /> CEP 05352-060
                             </p>
-                            <p className="footer-contact">ecmoneybr@gmail.com</p>
-                            <p className="footer-contact">+55 11 99144-8808</p>
-                            <p className="footer-contact">+55 11 96444-7352</p>
+                            <p className="footer-contact"><FaEnvelope size={20} alt="Envelope" className="icon" /> ecmoneybr@gmail.com</p>
+                            <p className="footer-contact"><FaPhoneAlt size={20} alt="phone" className="icon" /> + 55 11 99144-8808</p>
+                            <p className="footer-contact"><FaPhoneAlt size={20} alt="phone" className="icon" /> + 55 11 96444-7352</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

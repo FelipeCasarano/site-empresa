@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = "Consultoria & Gestão Empresarial";
+  const toRotate = "Assessoria Financeira & Tecnologia Empresarial";
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(200 - Math.random() * 200);
 
@@ -31,21 +31,22 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Bem vindo a FI Corporation</span>
+            <span className="tagline">Bem vindo a E.C.MONEY</span>
             <h1>
               {`GESTÃO INOVADORA PARA SEU NEGÓCIO`} <br />
               <span className="wrap">{text}</span>
             </h1>
-
             <p>
-              A Fi & Company é uma consultoria de gestão que atende empresas, com o
-              propósito compartilhado de obter resultados surpreendentes e superar a
-              concorrência, utilizando a criatividade, tecnologia e direcionando seus
-              recursos de forma eficiente.
+              A E.C.Money é uma empresa de Assessoria Financeira & Tecnologia Empresarial
+              que atende empresas, com o propósito compartilhado de obter serviços e
+              resultados surpreendentes superando a concorrência, utilizando a
+              criatividade, tecnologia e direcionando seus recursos de forma eficiente.
             </p>
-            <button onClick={() => console.log("connect")}>
-              Entre em contato <ArrowRightCircle size={24} />
-            </button>
+            <a href="/entre-em-contato">
+              <button>
+                Entre em contato <ArrowRightCircle size={24} />
+              </button>
+            </a>
           </Col>
         </Row>
       </Container>

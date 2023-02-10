@@ -35,33 +35,37 @@ export const SobreQuotes = () => {
                 responsive={responsive}
                 infinite={true}
                 className="benefits-slider"
-                autoPlaySpeed={5000}
+                autoPlaySpeed={6000}
               >
                 <article className="quo-card">
-                  <h5>Autor</h5>
-                  <small>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex expedita
-                    quis fugiat magnam suscipit velit exercitationem, dolores praesentium
-                    aut doloremque. Aperiam porro facere minima inventore maxime quos
-                    magnam voluptas facilis.
-                  </small>
+                  <h5>Emanuel Lasker</h5>
+                  <p>“O jogo mais difícil de ganhar é um jogo vencido”</p>
+                  <small>Grande Mestre de xadrez, campeão mundial por 27 anos.</small>
                 </article>
                 <article className="quo-card">
-                  <h5>Autor</h5>
-                  <small>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis
-                    minima facilis eaque excepturi accusantium ratione odit, consequatur
-                    ea nesciunt, inventore voluptas saepe voluptate dolorum iure
-                    dignissimos itaque nostrum ut.
-                  </small>
+                  <h5>Napoleon Hill</h5>
+                  <p>
+                    “Reunir-se é um começo, permanecer juntos é um progresso, e trabalhar
+                    juntos é um sucesso.”
+                  </p>
+                  <small>Escritor de desenvolvimento pessoal norte-americano.</small>
                 </article>
                 <article className="quo-card">
-                  <h5>Autor</h5>
+                  <h5>Enrico Casarano</h5>
+                  <p>
+                    “Quando somamos força e sabedoria nos tornamos mais fortes e capazes
+                    de alcançar metas e objetivos mais difíceis. ”
+                  </p>
+                  <small>CEO e fundador da E.C.MONEY.</small>
+                </article>
+                <article className="quo-card">
+                  <h5>Elon Musk</h5>
+                  <p>
+                    “Quando algo é importante o suficiente, você faz, mesmo que as chances
+                    não estejam a seu favor.”
+                  </p>
                   <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum amet
-                    est neque, nesciunt magnam vero itaque! Iste labore amet ipsam?
-                    Aliquid facilis quos at consequatur quibusdam dicta asperiores
-                    molestiae placeat!
+                    Empreendedor bilionário e filantropo sul-africano-canadense.
                   </small>
                 </article>
               </Carousel>

@@ -1,86 +1,80 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../../../assets/img/project-img1.png";
-import projImg2 from "../../../assets/img/project-img2.png";
-import projImg3 from "../../../assets/img/project-img3.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Assesoria adm financeira",
+      text: "Assesoria adm financeira",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Auditoria interna e externa - Controladoria",
+      text: "Auditoria interna e externa - Controladoria",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Tomada de recursos, Linha de crédito e Capital de giro",
+      text: "Tomada de recursos, Linha de crédito e Capital de giro",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Estruturação de tesouraria - Business Plan, DRE/EBITDA",
+      text: "Estruturação de tesouraria - Business Plan, DRE/EBITDA",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Fluxo de caixa, Gestão de risco e Plano Empresário",
+      text: "Fluxo de caixa, Gestão de risco e Plano Empresário",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Terceirização de serviços adm financeiro",
+      text: "Terceirização de serviços adm financeiro",
+    },
+    {
+      description: "Implementação de centro de custo, Curva ABC, POP",
+      text: "Implementação de centro de custo, Curva ABC, POP",
     },
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Gestão da TI completa",
+      text: "Gestão da TI completa",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Desenvolvimento de site",
+      text: "Desenvolvimento de site",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Inteligência de dados",
+      text: "Inteligência de dados",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Implantação de ERP",
+      text: "Implantação de ERP",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Configuração e montagem de rede/Wi-Fi/Data Center",
+      text: "Configuração e montagem de rede/Wi-Fi/Data Center",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Atualização de softwares e hardwares",
+      text: "Atualização de softwares e hardwares",
+    },
+    {
+      description: "Marketing digital/Design & Development",
+      text: "Marketing digital/Design & Development",
     },
   ];
 
   return (
     <section className="project">
       <Container>
-        <Row>
+        <Row className="project-row">
           <Col size={12}>
             <h2>Serviços</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book.
+              A assessoria consiste em um serviço empresarial, com objetivo de
+              diagnosticar possíveis problemas, analisar benchmarks, reconhecer e apontar
+              novas oportunidades e entregar soluções práticas. Aplicada por profissionais
+              da área com conhecimento como PMO, Gestor, Investidor, Desenvolvedor e
+              Marketing.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav

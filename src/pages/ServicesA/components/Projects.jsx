@@ -1,86 +1,76 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../../../assets/img/project-img1.png";
-import projImg2 from "../../../assets/img/project-img2.png";
-import projImg3 from "../../../assets/img/project-img3.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Gestão de risco corporativos - DRE/EBITDA",
+      text: "Gestão de risco corporativos - DRE/EBITDA",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Consultoria financeira - Budget/Cash-Flow",
+      text: "Consultoria financeira - Budget/Cash-Flow",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Gestão de capital de giro e/ou investimentos",
+      text: "Gestão de capital de giro e/ou investimentos",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Tesouraria corporativa/Sistemas integrados",
+      text: "Tesouraria corporativa/Sistemas integrados",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Terceirização de serviços",
+      text: "Terceirização de serviços",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Elaboração de plano de negócio e planejamento financeiro",
+      text: "Elaboração de plano de negócio e planejamento financeiro",
     },
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Gestão da TI completa",
+      text: "Gestão da TI completa",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Desenvolvimento de site",
+      text: "Desenvolvimento de site",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Inteligência de dados",
+      text: "Inteligência de dados",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Implantação de ERP",
+      text: "Implantação de ERP",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Configuração e montagem de rede/Wi-Fi/Data Center",
+      text: "Configuração e montagem de rede/Wi-Fi/Data Center",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Atualização de softwares e hardwares",
+      text: "Atualização de softwares e hardwares",
+    },
+    {
+      description: "Marketing digital/Design & Development",
+      text: "Marketing digital/Design & Development",
     },
   ];
 
   return (
     <section className="project">
       <Container>
-        <Row>
+        <Row className="project-row">
           <Col size={12}>
             <h2>Serviços</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book.
+              A assessoria consiste em um serviço empresarial, com objetivo de
+              diagnosticar possíveis problemas, analisar benchmarks, reconhecer e apontar
+              novas oportunidades e entregar soluções práticas. Aplicada por profissionais
+              da área com conhecimento como PMO, Gestor, Investidor, Desenvolvedor e
+              Marketing.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
