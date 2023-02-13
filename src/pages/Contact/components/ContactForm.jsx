@@ -35,7 +35,7 @@ export const ContactForm = () => {
     const formData = new FormData();
     Object.keys(formDetails).forEach((key) => formData.append(key, formDetails[key]));
     axios
-      .post("http://localhost:3000/send", formData, {
+      .post("https://ecmoney.vercel.app/send", formData, {
         headers: {
           "Content-Type": `multipart/form-data; boundary=${formData._boundary}`,
         },
