@@ -4,8 +4,8 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
   const projects = [
     {
-      description: "Assesoria adm financeira",
-      text: "Assesoria adm financeira",
+      description: "Assessoria Adm Financeira",
+      text: "Assessoria Adm Financeira",
     },
     {
       description: "Auditoria interna e externa - Controladoria",
