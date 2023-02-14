@@ -32,6 +32,6 @@ app.use('*', express.static(path.join(__dirname, '../../build')))
 
 
 
-app.listen(3000, () => {
+app.listen(3030, () => {
     console.log('server rodando')
 })
