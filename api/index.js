@@ -9,6 +9,7 @@ app.use(cors())
 app.use(express.json())
 const port = process.env.PORT || 3030
 
+
 const upload = require("multer")();
 
 app.post('/send', upload.single('anexo'), (req, res, next) => {
@@ -28,8 +29,9 @@ app.post('/send', upload.single('anexo'), (req, res, next) => {
 
 })
 
-app.use('/', express.static('/public'))
-app.use('*', express.static('/public'))
+app.use('/', express.static(path.join(__dirname, '../build')))
+app.use('*', express.static(path.join(__dirname, '../build')))
+
 
 
 
