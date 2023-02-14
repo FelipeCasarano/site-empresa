@@ -7,6 +7,7 @@ const app = express()
 
 app.use(cors())
 app.use(express.json())
+const port = process.env.PORT || 3030
 
 const upload = require("multer")();
 
@@ -32,6 +33,6 @@ app.use('*', express.static(path.join(__dirname, '../../build')))
 
 
 
-app.listen(3030, () => {
+app.listen(port, () => {
     console.log('server rodando')
 })
