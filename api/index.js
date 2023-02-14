@@ -20,7 +20,7 @@ app.post('/send', upload.single('anexo'), (req, res, next) => {
     const anexo = req.file
     const message = req.body.message
 
-    require('../services/mailService.js')(firstName, lastName, email, phone, objective, anexo, message)
+    require('../src/services/mailService.js')(firstName, lastName, email, phone, objective, anexo, message)
         .then(response => res.json(response)
         )
         .catch(error => res.status(500).json(error)
@@ -28,8 +28,7 @@ app.post('/send', upload.single('anexo'), (req, res, next) => {
 
 })
 
-app.use('/', express.static(path.join(__dirname, '../../build')))
-app.use('*', express.static(path.join(__dirname, '../../build')))
+
 
 
 
