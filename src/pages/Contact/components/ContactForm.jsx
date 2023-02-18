@@ -140,7 +140,7 @@ export const ContactForm = () => {
             <p>
               {" "}
               Ao informar meus dados, eu concordo com os{" "}
-              <a href="termos-de-privacidade" className="terms-1">
+              <a href="/entre-em-contato/termos-de-privacidade" className="terms-1">
                 Termos de Privacidade
               </a>
             </p>
