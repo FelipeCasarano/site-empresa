@@ -27,7 +27,7 @@ export const Services = () => {
   };
   return (
     <section className="services" id="services">
-      <img className="background-image-left" src={colorSharp} alt="" />
+      <img className="background-image-left" src={colorSharp} alt="background" />
       <Container>
         <Row>
           <Col>

@@ -11,16 +11,16 @@ export const SobreInfo = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={6} md={6} xl={3}>
-            <img className="info-img1" src={crssp} alt="" />
+            <img className="info-img1" src={crssp} alt="certficado" />
           </Col>
           <Col xs={6} md={6} xl={3}>
-            <img className="info-img2" src={crasp} alt="" />
+            <img className="info-img2" src={crasp} alt="certficado" />
           </Col>
           <Col xs={6} md={6} xl={3}>
-            <img className="info-img3" src={decore} alt="" />
+            <img className="info-img3" src={decore} alt="certficado" />
           </Col>
           <Col xs={6} md={6} xl={3}>
-            <img className="info-img4" src={sindcont} alt="" />
+            <img className="info-img4" src={sindcont} alt="certficado" />
           </Col>
         </Row>
       </Container>
