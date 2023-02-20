@@ -16,13 +16,16 @@ export const FStep = () => {
               <p>
                 Nossa metodologia visa principalmente ser{" "}
                 <small>
-                  compatível com diversos negócios e atendê-los de forma personalizada,
+                  compatível com diversos negócios para atende-lo de forma personalizada,
                 </small>{" "}
                 mapeando seu funcionamento, equipe e objetivos. A partir destas
-                informações utilizar de metodologias tradicionais do mercado como as
-                metodologias ágeis, balanced scored entre outras, definindo as mais
-                adequadas e a moldando para maior coesão com as características da
-                empresa.
+                informações e nosso “know-how” podemos utilizar de metodologias
+                tradicionais do mercado como, as metodologias ágeis, balanced scored entre
+                outras, definindo as mais adequadas e a{" "}
+                <small>
+                  moldando para maior assertividade e coesão com as características da sua
+                  empresa.
+                </small>
               </p>
             </div>
           </Col>

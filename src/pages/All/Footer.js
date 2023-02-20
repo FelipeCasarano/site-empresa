@@ -22,9 +22,11 @@ export const Footer = () => {
                                 E.C.money
                             </h6>
                             <p className="footer-text">
-                                A E.C.Money é uma empresa de Assessoria Financeira & Tecnologia Empresarial que atende empresas,
-                                com o propósito compartilhado de obter serviços e resultados surpreendentes superando a concorrência,
-                                utilizando a criatividade, tecnologia e direcionando seus recursos de forma eficiente.
+                                A E.C.Money é uma empresa de Assessoria Financeira & Tecnologia Empresarial
+                                que atende empresas, com o propósito compartilhado de alavancar e obter
+                                resultados surpreendentes superando a concorrência, utilizando o “know-how”
+                                obtido ao logo dos anos, a criatividade, tecnologia, e direcionando seus
+                                recursos de forma eficiente e qualitativa para sua empresa.
                             </p>
                         </MDBCol>
 

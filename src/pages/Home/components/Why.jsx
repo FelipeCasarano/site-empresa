@@ -48,7 +48,8 @@ export const Why = () => {
                     <h3 className="why-title">Clareza</h3>
                     <span className="why-subtitle">
                       Inicialmente realizamos um diagnóstico econômico financeiro da
-                      empresa para melhor clareza da tomada de decisões.
+                      empresa para melhor clareza da na tomada conjunta de decisões
+                      recomendáveis.
                     </span>
                   </div>
                   <div>
