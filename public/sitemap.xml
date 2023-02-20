@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+  <url>
+    <loc>https://www.ecmoney.com.br/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/home</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/sobre</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/para-startups</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/para-empresas-tradicionais</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/para-abertura-de-empresas</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/metodologia</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/entre-em-contato</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ecmoney.com.br/entre-em-contato/termos-de-privacidade</loc>
+    <priority>0.4</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2023-02-20T15:52:34+00:00</lastmod>
+  </url>
+</urlset>
