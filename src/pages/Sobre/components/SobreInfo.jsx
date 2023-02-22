@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import crssp from "../../../assets/img/crcspphroom.png";
-import crasp from "../../../assets/img/crasp.png";
-import decore from "../../../assets/img/decore-PhotoRoom.png";
-import sindcont from "../../../assets/img/SINDCONT-PhotoRoom.png";
+import crssp from "../../../assets/img/crcspphroom.webp";
+import crasp from "../../../assets/img/crasp.webp";
+import decore from "../../../assets/img/decore.webp";
+import sindcont from "../../../assets/img/SINDCONT.webp";
 
 export const SobreInfo = () => {
   return (

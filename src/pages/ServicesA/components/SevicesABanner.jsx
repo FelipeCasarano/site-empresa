@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import rocket from "../../../assets/img/rocket.png";
+import rocket from "../../../assets/img/rocket.webp";
 
 export const SevicesABanner = () => {
   return (

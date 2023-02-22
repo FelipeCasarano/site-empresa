@@ -5,7 +5,7 @@
 .sobre-banner {
   margin-top: 0;
   padding: 260px 100px 100px 0;
-  background-image: url("../../assets/img/banner-bg7.png");
+  background-image: url("../../assets/img/banner-bg7.webp");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -220,7 +220,7 @@
   border-radius: 1rem;
 }
 .img-ide {
-  background-image: url("../../assets/img/graphic2.jpg");
+  background-image: url("../../assets/img/graphic2.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -318,7 +318,7 @@
   .sobre-banner {
     margin-top: 0;
     padding: 260px 20px 100px 20px;
-    background-image: url("../../assets/img/sobre-bg-media.png");
+    background-image: url("../../assets/img/sobre-bg-media.webp");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

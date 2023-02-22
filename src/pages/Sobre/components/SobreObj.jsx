@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import historia from "../../../assets/img/historia.jpg";
+import historia from "../../../assets/img/historia.webp";
 
 export const SobreObj = () => {
   return (

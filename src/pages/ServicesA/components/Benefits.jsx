@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import colorSharp2 from "../../../assets/img/color-sharp2.png";
+import colorSharp2 from "../../../assets/img/color-sharp2.webp";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const Benefits = () => {

@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { IoRocketOutline, IoStorefrontOutline, IoBulbOutline } from "react-icons/io5";
-import colorSharp from "../../../assets/img/color-sharp.png";
+import colorSharp from "../../../assets/img/color-sharp.webp";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const Services = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import img3 from "../../../assets/img/chess.png";
+import img3 from "../../../assets/img/chess.webp";
 
 export const SStep = () => {
   return (

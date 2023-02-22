@@ -1,5 +1,5 @@
 import React from "react";
-import Img4 from "../../../assets/img/grupo.png";
+import Img4 from "../../../assets/img/grupo.webp";
 import { Row, Col } from "react-bootstrap";
 import { FaAward, FaStore, FaRocket, FaHammer } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";

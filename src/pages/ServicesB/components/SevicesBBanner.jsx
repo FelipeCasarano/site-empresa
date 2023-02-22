@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import company from "../../../assets/img/company.png";
+import company from "../../../assets/img/company.webp";
 
 export const SevicesBBanner = () => {
   return (

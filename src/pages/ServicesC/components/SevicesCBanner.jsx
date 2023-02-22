@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import bulb from "../../../assets/img/bulb.png";
+import bulb from "../../../assets/img/bulb.webp";
 
 export const SevicesCBanner = () => {
   return (

@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import contato from "../../../assets/img/contato.png";
+import contato from "../../../assets/img/contato.webp";
 
 export const ContactBanner = () => {
   return (

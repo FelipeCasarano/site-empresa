@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import img3 from "../../../assets/img/agile.png";
+import img3 from "../../../assets/img/agile.webp";
 
 export const TStep = () => {
   return (

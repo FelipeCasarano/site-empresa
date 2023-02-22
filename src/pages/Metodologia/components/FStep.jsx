@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import img3 from "../../../assets/img/planet.png";
+import img3 from "../../../assets/img/planet.webp";
 
 export const FStep = () => {
   return (
