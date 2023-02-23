@@ -17,7 +17,7 @@ function Metodologia() {
           name="description"
           content="Identificar as premissas críticas e estabelecer as diretrizes necessárias para a elaboração correta do plano de ação."
         />
-        <link rel="canonical" href="/metodologia" />
+        <link rel="canonical" href="https://www.ecmoney.com.br/metodologia" />
       </Helmet>
       <NavBar />
       <MetodologiaBanner />

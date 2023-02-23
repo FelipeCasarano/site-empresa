@@ -15,7 +15,10 @@ function ServicesC() {
           name="description"
           content="Abrir um negócio depende não só de uma boa ideia, mas de um acompanhamento de várias partes, esse procedimento é bem burocrático e envolve várias decisões que afetarão o futuro do negócio, incluindo direitos, obrigações e estratégias."
         />
-        <link rel="canonical" href="/para-abertura-de-empresas" />
+        <link
+          rel="canonical"
+          href="https://www.ecmoney.com.br/para-abertura-de-empresas"
+        />
       </Helmet>
       <NavBar />
       <SevicesCBanner />

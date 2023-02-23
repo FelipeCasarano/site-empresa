@@ -15,7 +15,10 @@ function ServicesB() {
           name="description"
           content="Ter uma empresa de sucesso não é apenas ter um modelo de negócio promissor, mas uma ampla quantidade de fatores, que exigem desde pequenas alterações a grandes mudanças."
         />
-        <link rel="canonical" href="/para-empresas-tradicionais" />
+        <link
+          rel="canonical"
+          href="https://www.ecmoney.com.br/para-empresas-tradicionais"
+        />
       </Helmet>
       <NavBar />
       <SevicesBBanner />

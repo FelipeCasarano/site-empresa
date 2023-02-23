@@ -16,7 +16,7 @@ function Contact() {
           name="description"
           content="Ficou com alguma dúvida? Gostaria de entender melhor? Deixe nos uma mensagem e entraremos em contato!"
         />
-        <link rel="canonical" href="/entre-em-contato" />
+        <link rel="canonical" href="https://www.ecmoney.com.br/entre-em-contato" />
       </Helmet>
       <NavBar />
       <ContactBanner />

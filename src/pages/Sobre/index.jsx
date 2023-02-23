@@ -18,7 +18,7 @@ function Sobre() {
           name="description"
           content="Somos um grupo de Administradores, Contadores, Desenvolvedores e Técnicos de TI, extremamente capacitados a somar força e sabedoria com o objetivo de aprimorar a gestão do seu negócio, minimizando gastos e maximizando resultados."
         />
-        <link rel="canonical" href="/sobre" />
+        <link rel="canonical" href="https://www.ecmoney.com.br/sobre" />
       </Helmet>
       <NavBar />
       <SobreBanner />

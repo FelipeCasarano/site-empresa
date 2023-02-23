@@ -15,7 +15,7 @@ function ServicesA() {
           name="description"
           content="Transformar uma Startup em um negócio bem-sucedido exige uma árdua jornada de trabalho, conhecimento e suporte adequado."
         />
-        <link rel="canonical" href="/para-startups" />
+        <link rel="canonical" href="https://www.ecmoney.com.br/para-startups" />
       </Helmet>
       <NavBar />
       <SevicesABanner />
