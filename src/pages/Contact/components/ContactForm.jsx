@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import InputMask from "react-input-mask";
 import axios from "axios";
 import Swal from "sweetalert2";
+import GA4 from "react-ga4";
 
 export const ContactForm = () => {
   const formInitialDetails = {
