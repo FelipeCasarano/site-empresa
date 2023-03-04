@@ -31,6 +31,20 @@ export const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Envie um evento personalizado para o Google Analytics
+    GA4.event({
+      category: "Contato",
+      action: "Enviar",
+      label: "Formulário de contato",
+    });
+
+    // Acione a tag de conversão do Google Ads
+    window.gtag("config", "AW-1110913036");
+    window.gtag("event", "conversion", {
+      send_to: "AW-11109130369/7ZVZCLHyz48YEIHBn7Ep",
+    });
+
     setButtonText("Enviando...");
     const formData = new FormData();
     Object.keys(formDetails).forEach((key) => formData.append(key, formDetails[key]));
