@@ -31,10 +31,12 @@
 }
 .banner .wrap {
   font-size: 50px;
+  font-family: "Merriweather", serif;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 20px;
+  white-space: pre-line;
   display: block;
   color: rgb(92, 64, 218);
 }
@@ -43,7 +45,7 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  padding: 0 10px 0 10px;
 }
 .banner button {
   color: #fff;
@@ -364,7 +366,7 @@
   .banner .wrap {
     font-size: 45px;
     font-weight: 700;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 20px;
     display: block;

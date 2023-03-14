@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = "Assessoria Financeira & Tecnologia Empresarial";
+  const toRotate = `Assessoria Financeira \n&\n Tecnologia Empresarial`;
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(200 - Math.random() * 200);
 
